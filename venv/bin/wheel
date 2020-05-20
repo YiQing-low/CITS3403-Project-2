@@ -1,4 +1,4 @@
-#!/Users/danielsantosa/Desktop/microblog/venv/bin/python3
+#!/Users/danielsantosa/Desktop/microblog/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
