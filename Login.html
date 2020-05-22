@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!--setting the device adjustment-->
+  <link rel="stylesheet" href="styles.css">
+  <title> Project 1</title>
+
+</head>
+
+<body>
+  <header>
+    <nav><!--navigation for different pages-->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="placeholder3.html">Pricing</a></li>
+        <li><a href="placeholder4.html">Blog</a></li>
+        <li><a href="placeholder5.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Quiz</h1>
+    <hr>
+  </header>
+
+  <main id="main-login">
+    <h1 id="login-header">Login</h1>
+
+    <div id="login-error-msg-container">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+  </main>
+
+  <br>
+  <footer>
+    COPYRIGHT@CITS3403.UWA
+  </footer>
+
+<script type="text/javascript">
+const loginForm = document.getElementById("login-form");
+const loginButton = document.getElementById("login-form-submit");
+const loginErrorMsg = document.getElementById("login-error-msg");
+
+loginButton.addEventListener("click", (inputA) => {
+    inputA.preventDefault();
+    const username = loginForm.username.value;
+    const password = loginForm.password.value;
+
+    if (username === "user" && password === "pass") {
+        alert("You have successfully logged in.");
+        location.reload();
+    } else {
+        loginErrorMsg.style.opacity = 1;
+    }
+})</script>
+</body>
+</html>
