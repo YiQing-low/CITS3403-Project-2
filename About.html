@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!--setting the device afjustment-->
+  <link rel="stylesheet" href="styles.css">
+  <title> Project 1</title>
+
+</head>
+
+<body>
+  <header>
+    <nav><!--navigation for different pages-->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="placeholder3.html">Pricing</a></li>
+        <li><a href="placeholder4.html">Blog</a></li>
+        <li><a href="placeholder5.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1>Career Quiz</h1>
+    <hr>
+  </header>
+
+  <p> Results displayed (some graph under)</p>
+
+  <form
+        name="myForm"
+        action="/action_page.php"
+        onsubmit="return validateForm()"
+        method="post"
+      >
+        <label>Name:</label> <input type="text" name="fname" /><br />
+        <!-- I ADDED SOMETHING HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <label>Contact Email:</label> <input type="text" name="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br />
+
+        <input type="submit" class="button" value="Submit" onclick="FormValidate()"/>
+        </br>
+        <input type="checkbox" id="subscription" />
+        <label> Subscribe for more content! </label>
+      </form>
+        <br>
+  <br>
+    <footer>
+    COPYRIGHT@CITS3403.UWA
+    </footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
