@@ -6,7 +6,10 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"><!--setting the device afjustment-->
   <link rel="stylesheet" href="styles.css">
-  <title> Project 1</title>
+
+  <title> About</title>
+  <script src="project2.js"></script>
+
 
 </head>
 
@@ -26,14 +29,15 @@
     <hr>
   </header>
 
-  <p> Results displayed (some graph under)</p>
+  <div class="center">
+    <p> Results displayed (some graph under)</p>
 
-  <form
+    <form
         name="myForm"
         action="/action_page.php"
         onsubmit="return validateForm()"
-        method="post"
-      >
+        method="post">
+
         <label>Name:</label> <input type="text" name="fname" /><br />
         <!-- I ADDED SOMETHING HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
         <label>Contact Email:</label> <input type="text" name="email"
@@ -43,14 +47,17 @@
         </br>
         <input type="checkbox" id="subscription" />
         <label> Subscribe for more content! </label>
-      </form>
-        <br>
+
+    </form>
+  </div>
+  
+  
+  <br>
+
   <br>
     <footer>
     COPYRIGHT@CITS3403.UWA
     </footer>
-
-<script src="main.js"></script>
 
 </body>
 </html>
