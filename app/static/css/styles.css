@@ -171,12 +171,12 @@ nav li {
   padding: 5px 20px;
   display: inline-block;
   cursor: pointer;
-  &:hover {
+}
+.button:hover {
     background: darken(#C06C84,10%);
     box-shadow: 0 4px 17px rgba(0,0,0,0.2);
     transform: translate3d(0, -2px, 0);
   }
-}
 .center {
   margin: 0;
   position: absolute;
@@ -184,6 +184,13 @@ nav li {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+#remember_me{
+  width: auto;
+}
+input{
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    width: 15em;
 }
 input[type=text] {
   padding: 12px 20px;
