@@ -11,11 +11,16 @@ body {
   padding:0;}
 
 header {
-  color black;
   padding:20px;
   margin-top: 10px;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
+}
+h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 hr {
@@ -94,38 +99,13 @@ nav li {
 #main-login {
   margin: auto;
   width: 30%;
-  height: 70%;
+  height: 50%;
   display: grid;
   justify-items: center;
   align-items: center;
   background-color: white;
   border-radius: 7px;
   box-shadow: 0px 0px 5px 2px black;
-}
-
-#login-error-msg-container {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-}
-
-#login-error-msg {
-  width: 25%;
-  text-align: center;
-  margin: 0;
-  padding: 5px;
-  font-size: 12px;
-  font-weight: bold;
-  color: black;
-  border: 1px solid #8a0000;
-  background-color: #e58f8f;
-  opacity: 0;
-}
-
-#error-msg-second-line {
-  display: block;
 }
 
 #login-form {
@@ -142,13 +122,11 @@ nav li {
 .login-form-field {
   border: none;
   border-bottom: 1px solid #333;
-  margin-bottom: 10px;
   border-radius: 3px;
   outline: none;
-  padding: 0px 0px 5px 5px;
+  padding: 0px 0px 0px 0px;
 }
-
-#login-form-submit {
+#submit {
   width: 100%;
   padding: 7px;
   border: none;
@@ -159,10 +137,26 @@ nav li {
   cursor: pointer;
   outline: none;
   }
-#login-form-submit:hover {
+#submit:hover {
   background-color: white;
-  color: black;
+  color: #333;
 }
+#Register{
+  text-transform: capitalize;
+  width: 100%;
+  padding: 1px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #333;
+  cursor: pointer;
+  outline: none;
+  }
+#Register:hover {
+    background-color: white;
+    color: #333;
+  }
 .button{
   font-family: 'helvetica neue', helvetica, sans-serif;
   font-size: 20px;
@@ -177,12 +171,12 @@ nav li {
   padding: 5px 20px;
   display: inline-block;
   cursor: pointer;
-  &:hover {
+}
+.button:hover {
     background: darken(#C06C84,10%);
     box-shadow: 0 4px 17px rgba(0,0,0,0.2);
     transform: translate3d(0, -2px, 0);
   }
-}
 .center {
   margin: 0;
   position: absolute;
@@ -190,6 +184,13 @@ nav li {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+#remember_me{
+  width: auto;
+}
+input{
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    width: 15em;
 }
 input[type=text] {
   padding: 12px 20px;
