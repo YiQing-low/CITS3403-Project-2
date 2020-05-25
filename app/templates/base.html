@@ -1,22 +1,24 @@
 <html>
     <head>
-        {% if title %}
-        <title>{{ title }} - microblog</title>
-        {% else %}
-        <title>microblog</title>
-        {% endif %}
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"><!--setting the device adjustment-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Project 2</title>
     </head>
     <body>
-        <div>
-            Microblog:
-            <a href="{{ url_for('index') }}">Home</a>
+        <header>
+         <nav>
+          <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
             {% if current_user.is_anonymous %}
-            <a href="{{ url_for('login') }}">Login</a>
+            <li><a href="{{ url_for('login') }}">Login</a></li>
             {% else %}
-            <a href="{{ url_for('logout') }}">Logout</a>
-            {% endif %} 
-        </div>
+            <li><a href="{{ url_for('logout') }}">Logout</a></li>
+            {% endif %}
+          </ul>
+         </nav>
         <hr>
+        </header>
         {% with messages = get_flashed_messages() %}
         {% if messages %}
         <ul>
