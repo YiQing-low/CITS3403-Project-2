@@ -11,7 +11,7 @@ Group Members:
 
 - Daniel
 
-Requirements/modules
+For Requirements for venv see requirements.txt
 
 
 Instructions for loading quiz locally(WINDOWS)
