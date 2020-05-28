@@ -3,7 +3,7 @@ from app import db, login
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 
-
+# user class to store in database for login, registering, and logout
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
@@ -13,9 +13,11 @@ class User(UserMixin, db.Model):
     def __repr__(self):
         return '<User {}>'.format(self.username)
 
+    # generate SHA256 password hash
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
 
+    # check entered password with hashed password
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
 
@@ -24,7 +26,7 @@ class User(UserMixin, db.Model):
 def load_user(id):
     return User.query.get(int(id))
 
-
+# Quiz class to store in database quiz questions, quiz name, and creator id
 class Quiz(db.Model):
     quizname = db.Column(db.String(64), primary_key=True)
     creator_id = db.Column(db.Integer, db.ForeignKey('user.id'))
@@ -32,7 +34,7 @@ class Quiz(db.Model):
     q2 = db.Column(db.String(256))
     q3 = db.Column(db.String(256))
 
-    
+# class to store in database answers, questions, quiz name, and id
 class Qanswers(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     quiz_name = db.Column(db.String(64))

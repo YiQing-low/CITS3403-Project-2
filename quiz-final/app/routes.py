@@ -5,7 +5,7 @@ from app import app, db
 from app.forms import LoginForm, RegistrationForm, CreateQuizForm, AnswerQuizForm
 from app.models import User, Quiz, Qanswers
 
-
+# decorator for index page
 @app.route('/')
 @app.route('/index')
 @login_required
@@ -13,13 +13,14 @@ def index():#main page
     Quiz_addresses = Quiz.query.all()
     return render_template('index.html', title='Home', Quiz_addresses=Quiz_addresses)
 
-
+# decorator for login
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if current_user.is_authenticated:
         return redirect(url_for('index'))
     form = LoginForm()
     if form.validate_on_submit():
+        # checks username and password in sqllite database
         user = User.query.filter_by(username=form.username.data).first()
         if user is None or not user.check_password(form.password.data):
             flash('Invalid username or password')
@@ -31,18 +32,19 @@ def login():
         return redirect(next_page)
     return render_template('login.html', title='Sign In', form=form)
 
-
+# decorator for logout
 @app.route('/logout')
 def logout():
     logout_user()
     return redirect(url_for('index'))
 
-
+# decorator for registering
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if current_user.is_authenticated:
         return redirect(url_for('index'))
     form = RegistrationForm()
+    # add username and password to database
     if form.validate_on_submit():
         user = User(username=form.username.data, email=form.email.data)
         user.set_password(form.password.data)
