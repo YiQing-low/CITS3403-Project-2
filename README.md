@@ -10,7 +10,7 @@ Group Members:
 
 22521631 James Purdy
 
-- Daniel
+19315466 Daniel Santosa
 
 For Requirements for venv see requirements.txt
 
