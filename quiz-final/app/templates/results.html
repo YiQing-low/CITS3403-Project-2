@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Results  </h1>
+    {% for result in all_results %}
+    <p> <!-- display quiz question and answer results -->
+        Quiz Name: {{ result.quiz_name }}<br>
+        Alias: {{ result.submit_name }}<br>
+        Q1: {{ result.q1copy }}<br>
+        A1: {{ result.a1 }}<br>
+        Q2: {{ result.q2copy }}<br>
+        A2: {{ result.a2 }}<br>
+        Q3: {{ result.q3copy }}<br>
+        A3: {{ result.a3 }}<br>
+    </p>
+    {% endfor %}
+{% endblock %}

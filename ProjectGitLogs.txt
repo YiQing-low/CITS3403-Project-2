@@ -1,0 +1,432 @@
+commit 97217f3c45561a9133bd7aaa44e267b15a40a639
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Thu May 28 19:24:58 2020 +0800
+
+    Updated all HTML comments
+
+commit bf75394e8483f30d43734a4ffc437cbd86b9f41e
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Thu May 28 17:20:26 2020 +0800
+
+    Updated comments routes, models, login, init
+
+commit b1012fe32ff7dbd11f80949933c494377c80742e
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Thu May 28 16:39:50 2020 +0800
+
+    Update comments
+
+commit 6b414b57507767d47ed8a4b04f49be3387f0089e
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Thu May 28 16:36:42 2020 +0800
+
+    Update comments
+
+commit 81903dd6521c709acfd13e739582b7716c05ad39
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 12:34:30 2020 +0800
+
+    Update README.md
+
+commit dc350b57728adbb7b562cb2d663cf48910c55de9
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 12:30:49 2020 +0800
+
+    Add files via upload
+
+commit b8df4449f9bc423abc166c86b5952b6b3ee83790
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 12:28:54 2020 +0800
+
+    Update README.md
+
+commit 74be4f80293e48fed5b4ef98c22b683f52ab74d3
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 12:27:57 2020 +0800
+
+    Update README.md
+
+commit b723941c26375e03f1b2ce509b7900e0c980f24d
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 12:12:46 2020 +0800
+
+    Update README.md
+
+commit efb5ba54c50cbe071972e4ab094d092987359c7c
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 12:11:32 2020 +0800
+
+    Update README.md
+
+commit 5f4eba67771f481b89c86da72fc9c83927761a46
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 12:10:42 2020 +0800
+
+    Create README.md
+
+commit d461078e351cb0c260165e77a833f9a90514ab9d
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 11:52:13 2020 +0800
+
+    Delete .DS_Store
+
+commit 6ea8405451a779b663438fc0473e1e146d5e726e
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 11:51:53 2020 +0800
+
+    Rename Quiz_readme_instructions.txt to legacy/Quiz_readme_instructions.txt
+
+commit f2a88732c3c1794a2a0162a9cc52c0e6edcbda99
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 11:51:37 2020 +0800
+
+    Delete app.db
+
+commit 80327586099201c7158cdc669da1bdd23950a5c0
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 11:51:09 2020 +0800
+
+    Rename config.py to legacy/config.py
+
+commit e83f86ff74551e8f592d29506d9db89c9cacf977
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 11:50:52 2020 +0800
+
+    Delete get-pip.py
+
+commit 9909fbd65d2e3506237687a5973c04712ca06a95
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Thu May 28 11:49:25 2020 +0800
+
+    Rename microblog.py to legacy/microblog.py
+
+commit a88cc04d22c51cd6864def64fef71b2075f835be
+Merge: ab1300d 0cfda34
+Author: YiQing-low <64638698+YiQing-low@users.noreply.github.com>
+Date:   Tue May 26 02:52:43 2020 +0800
+
+    Merge pull request #8 from YiQing-low/master
+    
+    finished countdown timer in JS
+
+commit 0cfda3418edae7b29ded6f1f686b23925221ead6
+Author: YiQing-low <64638698+YiQing-low@users.noreply.github.com>
+Date:   Tue May 26 02:48:48 2020 +0800
+
+    finished the countdown timer in js
+    
+    - put onload="setup()" somewhere in quiz html
+    - need a div or something that has id="timer" to put the countdown in the page
+
+commit d2101f95c19afb2ca68810094db1a2a7fb223000
+Merge: da75f2c ab1300d
+Author: YiQing-low <64638698+YiQing-low@users.noreply.github.com>
+Date:   Tue May 26 02:43:41 2020 +0800
+
+    Merge pull request #3 from Daniel889911/master
+    
+    update my branch
+
+commit ab1300d2c14136e88955ed6c00d9643b789e2e19
+Merge: 16f76dc 9f374b6
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:56:44 2020 +0800
+
+    Merge pull request #7 from Felixfys/master
+    
+    Minor tweaks to styles.css
+
+commit 9f374b6121e266da5298eaf4c1542a53296b4448
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:55:35 2020 +0800
+
+    Update styles.css
+
+commit 16f76dc42f91b5f83e19c43934884b7c67fe439f
+Merge: 028d38e d1cee0f
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:14:50 2020 +0800
+
+    Merge pull request #6 from Felixfys/master
+    
+    merging css into html files
+
+commit d1cee0f2f310d8055b5008cf8a877ca5564c446f
+Merge: 5d62938 028d38e
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:12:41 2020 +0800
+
+    Merge pull request #5 from Daniel889911/master
+    
+    merging
+
+commit 028d38ece055fd45b16f7bb886c0c34cf5434d61
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:10:30 2020 +0800
+
+    Rename project2.js to HTML_backup/project2.js
+
+commit f8c108e27f3395da80e2b9ab36e12f1e435610aa
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:08:38 2020 +0800
+
+    Rename Question.html to HTML_backup/Question.html
+
+commit e7de845e3a3692f506644995265a0d11c8308a5f
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:07:22 2020 +0800
+
+    Rename Main.html to HTML_backup/Main.html
+
+commit c6ecc86101c40333193ed94e2b5170395c239959
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:05:48 2020 +0800
+
+    Rename Login.html to HTML_backup/Login.html
+
+commit 2229df93142202affc58b328da5396e002acc8c2
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:03:34 2020 +0800
+
+    Rename Index.html to HTML_backup/Index.html
+
+commit dd11caf7bffa1daaa4d8e0052d3a33fe1ef224c0
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:03:11 2020 +0800
+
+    Rename Createquiz.html to HTML_backup/Createquiz.html
+
+commit 3cb435616fa285d1228dd121fb3f99310320361a
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:02:48 2020 +0800
+
+    Rename Admin.html to HTML_backup/Admin.html
+
+commit 5d62938611929f53415d207d34c894e266f8021d
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 19:01:07 2020 +0800
+
+    Update styles.css
+
+commit 33d922164e46de310820f3bc987c3e79ef090288
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 18:59:56 2020 +0800
+
+    Update register.html
+
+commit 50107f612e73b118832299b9b1b834fbb9ea234b
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Mon May 25 18:59:23 2020 +0800
+
+    Update login.html
+
+commit 4fc457d25b21fc5b5d727ddfc23c7c606f6a0c4b
+Merge: 7f3960f da75f2c
+Author: YiQing-low <64638698+YiQing-low@users.noreply.github.com>
+Date:   Mon May 25 14:18:27 2020 +0800
+
+    Merge pull request #5 from YiQing-low/master
+    
+    some update on the javascript(now in statics folder)
+
+commit da75f2c181f3e8fb53d36655a5afd147eae72fe3
+Author: YiQing-low <64638698+YiQing-low@users.noreply.github.com>
+Date:   Mon May 25 14:15:10 2020 +0800
+
+     javascript
+
+commit c967159eddd6ca3ccc3fe097ba3eefe1a4363433
+Merge: 8c29f0e 7f3960f
+Author: YiQing-low <64638698+YiQing-low@users.noreply.github.com>
+Date:   Mon May 25 13:51:13 2020 +0800
+
+    Merge pull request #2 from Daniel889911/master
+    
+    update
+
+commit 5d2768d62b452d8a0a4867bd6f43d0f0ceb4f202
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Sun May 24 20:02:08 2020 +0800
+
+    Update base.html
+
+commit 7f3960fc56555c607170a7d982dc98b384717044
+Merge: 4b92d42 3fd1fed
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Sun May 24 19:25:46 2020 +0800
+
+    Merge pull request #4 from Felixfys/master
+    
+    update on base.html
+
+commit 3fd1fedf84154be03b901f54a68851f26944c70b
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Sun May 24 19:21:43 2020 +0800
+
+    Update base.html
+
+commit 163a9df3fb294baf45c0d81e2582be2b4b35a41b
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Sun May 24 19:14:28 2020 +0800
+
+    Delete About.html
+
+commit d9c3a1929dcda24db28970237ea44ffd814e9ad2
+Merge: bbb2c86 4b92d42
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Sun May 24 19:10:33 2020 +0800
+
+    Merge pull request #4 from Daniel889911/master
+    
+    updating
+
+commit 4b92d425806867858e1552941e951a88209fc043
+Merge: 0104739 bbb2c86
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Sun May 24 19:07:53 2020 +0800
+
+    Merge pull request #3 from Felixfys/master
+    
+    merging css
+
+commit bbb2c864de74528e3d0ecc2b6e6d2a59e199feb1
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Sun May 24 19:06:01 2020 +0800
+
+    Create styles.css
+
+commit 387ebafac7965c8037654479d32610a1a18e77c3
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Sun May 24 18:54:08 2020 +0800
+
+    Update base.html
+
+commit 8c29f0e9cd2ea5c89b8004dd5babc8b27ecb1266
+Merge: ac5b3f6 0104739
+Author: YiQing-low <64638698+YiQing-low@users.noreply.github.com>
+Date:   Sun May 24 17:39:03 2020 +0800
+
+    Merge pull request #1 from Daniel889911/master
+    
+    Updated commits from master
+
+commit 01047397a8cdf7480496713870cdba36a240def8
+Merge: 121cdf8 ac5b3f6
+Author: YiQing-low <64638698+YiQing-low@users.noreply.github.com>
+Date:   Sun May 24 17:37:59 2020 +0800
+
+    Merge branch 'master' into master
+
+commit be70f18679d70f938d5478f8f4a650289a3cb356
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Sun May 24 16:30:03 2020 +0800
+
+    Delete styles.css
+
+commit 121cdf857357b8c079be6f6f2b3926c7abe3550b
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Sun May 24 16:15:33 2020 +0800
+
+    Login, Registration, and Logout All Working
+
+commit 4f324495b3c163a205ed8816beb270592e42d7d0
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Sun May 24 16:07:59 2020 +0800
+
+    Login, Registration, and Logout All Working
+
+commit fb1781d6b256076711590299a57ef1a0025c1f87
+Merge: 0aa5b39 f324805
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Sat May 23 20:35:31 2020 +0800
+
+    Merge pull request #3 from Daniel889911/master
+    
+    merging
+
+commit f32480511e32e72ef47b1849555b3aadedfe429a
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Sat May 23 18:47:15 2020 +0800
+
+    Deleted Uneeded Files
+
+commit b5a4d258052d1fc599d97ebe254d33226cbb80a6
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Sat May 23 18:34:28 2020 +0800
+
+    Corrected Database
+
+commit d08e896ba628ca0c8ed735ec12657dc98962998a
+Merge: 1dc05be 9b39c0a
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Sat May 23 14:41:40 2020 +0800
+
+    Merge branch 'master' of https://github.com/Daniel889911/CITS3403-Project-2
+
+commit 1dc05beb8d4fa5e94ab93f9907a62b0b4c36d4a1
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Sat May 23 14:40:52 2020 +0800
+
+    Added Registration And Logout
+
+commit 9b39c0aab9274abe0c19f7decf757cc7bf9d2193
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Fri May 22 21:16:40 2020 +0800
+
+    Add files via upload
+
+commit a279184d26fdf41544bd6374d2e7dcde5111bd82
+Author: Amesja <65493904+Amesja@users.noreply.github.com>
+Date:   Fri May 22 21:12:40 2020 +0800
+
+    Added quiz database and user system
+
+commit ac5b3f62e8ea62d794fa81105ece4bc2beb845d3
+Author: YiQing-low <64638698+YiQing-low@users.noreply.github.com>
+Date:   Fri May 22 20:54:36 2020 +0800
+
+    Add files via upload
+
+commit 1a44b4c1ca3246d60287e60e31b0089e43af027b
+Merge: 7671563 0aa5b39
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Fri May 22 20:32:57 2020 +0800
+
+    Merge pull request #1 from Felixfys/master
+    
+    HTML stuff
+
+commit 7671563ff1f9cc174d3542eea07a061553573d99
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Fri May 22 19:47:01 2020 +0800
+
+    Added SQL Table For Users And Questions
+
+commit 0aa5b390c6c7feaccf605404b5ffade185ad57ad
+Merge: 78e6e7f 1407868
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Fri May 22 19:27:23 2020 +0800
+
+    Merge pull request #1 from Felixfys/Felix-patch-1
+    
+    HTML files
+
+commit 140786836b71713e594995d8665f9dd6001da922
+Author: Yushen Fu <56814428+Felixfys@users.noreply.github.com>
+Date:   Thu May 21 22:19:39 2020 +0800
+
+    HTML files
+    
+    HTML,CSS & JavaScript for front-end of the website.
+
+commit 78e6e7f903f06e82b6b806759c5ea210e92db35c
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Wed May 20 10:32:41 2020 +0800
+
+    Added Login Function
+
+commit 195cb6db35842209e3f95fe58d328c63e7e688c8
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Tue May 19 09:26:02 2020 +0800
+
+    Complete Web Forms Tutorial

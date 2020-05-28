@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Welcome to the Quiz</h1>
+
+    <p> Available Quizzes: <br> 
+        {% for Qui in Quiz_addresses %}  
+        <a style="color:black;text-align:center;" href="/quiz/{{Qui.quizname}}"> {{Qui.quizname}} </a> 
+    </p>
+    {% endfor %}
+{% endblock %}

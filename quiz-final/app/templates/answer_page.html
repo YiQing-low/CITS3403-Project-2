@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ noq }}</h1>
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        <p>Optional Timer
+        <input type="number" style="text-align: center;" id="myNumber" value="10">
+        <button type="button" style="margin:auto" onclick="timer()">Minutes</button>
+        </p>
+        <script>
+            var seconds = 0;
+            var interval ;
+            function timer() { //simple minute timer
+                var minutes = document.getElementById("myNumber").value;
+                seconds = minutes*60 || 0;
+                interval = setInterval(function() {
+                    seconds--;
+                    if(!seconds){
+                         clearInterval(interval); 
+                         alert("Timer has Expired"); } },1000) }
+        </script> 
+
+        <p>  
+            Please enter an alias
+            <br>
+            {{ form.submit_name(size=32) }}<br>
+            {% for error in form.submit_name.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p> <!-- form to enter in first answer -->
+            {{ q1_t }}
+            <br>
+            {{ form.a1(cols=60, rows=8) }}<br>
+            {% for error in form.a1.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>  <!-- form to enter in second answer -->
+            {{ q2_t }}
+           <br>
+            {{ form.a2(cols=60, rows=8) }}<br>
+            {% for error in form.a2.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>  <!-- form to enter in third answer -->
+            {{ q3_t }}
+           <br>
+            {{ form.a3(cols=60, rows=8) }}<br>
+            {% for error in form.a3.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+
+
+{% endblock %}
+
+
