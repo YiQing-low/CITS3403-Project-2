@@ -1,3 +1,9 @@
+commit 97217f3c45561a9133bd7aaa44e267b15a40a639
+Author: Daniel Santosa <19315466@student.uwa.edu.au>
+Date:   Thu May 28 19:24:58 2020 +0800
+
+    Updated all HTML comments
+
 commit bf75394e8483f30d43734a4ffc437cbd86b9f41e
 Author: Daniel Santosa <19315466@student.uwa.edu.au>
 Date:   Thu May 28 17:20:26 2020 +0800
