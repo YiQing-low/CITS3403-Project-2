@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Quiz Creator</h1>
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.quizname.label }}<br>
+            {{ form.quizname(size=32) }}<br>
+            {% for error in form.quizname.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.q1.label }}<br>
+            {{ form.q1(cols=60, rows=8) }}<br>
+            {% for error in form.q1.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.q2.label }}<br>
+            {{ form.q2(cols=60, rows=8) }}<br>
+            {% for error in form.q2.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.q3.label }}<br>
+            {{ form.q3(cols=60, rows=8) }}<br>
+            {% for error in form.q3.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+{% endblock %}
