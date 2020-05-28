@@ -3,6 +3,7 @@ Group Project CITS3403
 
 Group Members:
 
+
 22718812 Yi Qing Low
 
 22292336 Fu Yushen
@@ -24,6 +25,8 @@ Instructions for loading quiz locally(WINDOWS)
 
 
 To reset database or initialise (delete db and migration files)
+
+(NOTE: databse is already set-up)
 
 - flask db init
 
