@@ -21,7 +21,7 @@
                          alert("Timer has Expired"); } },1000) }
         </script> 
 
-        <p>  <!-- form to enter in first question -->
+        <p>  
             Please enter an alias
             <br>
             {{ form.submit_name(size=32) }}<br>
@@ -29,7 +29,7 @@
             <span style="color: red;">[{{ error }}]</span>
             {% endfor %}
         </p>
-        <p> 
+        <p> <!-- form to enter in first answer -->
             {{ q1_t }}
             <br>
             {{ form.a1(cols=60, rows=8) }}<br>
@@ -37,7 +37,7 @@
             <span style="color: red;">[{{ error }}]</span>
             {% endfor %}
         </p>
-        <p>  <!-- form to enter in second question -->
+        <p>  <!-- form to enter in second answer -->
             {{ q2_t }}
            <br>
             {{ form.a2(cols=60, rows=8) }}<br>
@@ -45,7 +45,7 @@
             <span style="color: red;">[{{ error }}]</span>
             {% endfor %}
         </p>
-        <p>  <!-- form to enter in third question -->
+        <p>  <!-- form to enter in third answer -->
             {{ q3_t }}
            <br>
             {{ form.a3(cols=60, rows=8) }}<br>
